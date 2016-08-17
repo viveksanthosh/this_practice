@@ -4,7 +4,7 @@ let employee = {
 
         setTimeout(function() {
             console.log(this)
-        }, 2000)
+        }.bind(this), 2000)
     }
 }
 
