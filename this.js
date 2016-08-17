@@ -5,5 +5,5 @@ let employee = {
     }
 }
 
-let getName=employee.getName;
+let getName=employee.getName.bind(employee);
 getName();
