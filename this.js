@@ -1,9 +1,12 @@
 let employee = {
     name: "Vivek",
     getName: function() {
-     console.log(this)
+
+        setTimeout(function() {
+            console.log(this)
+        }, 2000)
     }
 }
 
-let getName=employee.getName.bind(employee);
-getName();
+
+employee.getName()
