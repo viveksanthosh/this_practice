@@ -5,4 +5,5 @@ let employee = {
     }
 }
 
-employee.getName()
+let getName=employee.getName;
+getName();
