@@ -1,7 +1,7 @@
 let employee = {
     name: "Vivek",
     getName: function() {
-     console.log(this.name)
+     console.log(this)
     }
 }
 
